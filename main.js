@@ -1,9 +1,13 @@
-var valorUm = 5
-let valorDois = 11
+const formulario = document.getElementById("calcForm")
 
-function somar(a,b){
-    let c =a+b
-    return (c)
-}
+formulario.addEventListener("submit", function(e){
+    e.preventDefault();
 
-console.log(somar(valorUm,valorDois))
+    const a = Number(document.getElementById("num1").value)
+    const b = Number(document.getElementById("num2").value)
+    const c = Number(document.getElementById("num3").value)
+
+    const soma = a+b+c
+
+    document.getElementById("resultado").textContent = soma
+})
