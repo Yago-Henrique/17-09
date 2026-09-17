@@ -1,5 +1,6 @@
 17-09
-# Aula 17/09 <sub style="color: #193758;">Calculadora</sub>
+# Aula 17/09 
+##Calculadora
 
 Repositório criado para a aula de desenvolvimento web.
 
